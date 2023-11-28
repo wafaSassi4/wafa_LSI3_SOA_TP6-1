@@ -15,10 +15,10 @@ import java.util.Date;
 @EnableJpaRepositories(basePackages = "repositories") // Active la configuration des dépôts JPA
 @EntityScan(basePackages = "entities") // Active la recherche des entités JPA
 
-public class WajdiBenMoumenLsi3SoaTp6Application {
+public class wafasassiLsi3SoaTp6Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(WajdiBenMoumenLsi3SoaTp6Application.class, args);
+        SpringApplication.run(wafasassiLsi3SoaTp6Application.class, args);
     }
 
     @Bean
